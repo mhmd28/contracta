@@ -8,9 +8,11 @@ h -|> eng
 e-|>eng
 
 eng -|> Employee
-
 HR_Team -|> Employee
 
 Managers -|> Employee
+note bottom of Employee
+  Employee is the type of users that they all share
+endnote
 @enduml
 ```
